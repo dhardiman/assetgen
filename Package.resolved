@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Discourse",
+        "repositoryURL": "https://github.com/sebskuse/Discourse",
+        "state": {
+          "branch": "master",
+          "revision": "0768913b657b4c09c107ef7caa706637a46ed7ba",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
