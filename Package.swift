@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "assetgen",
+    platforms: [
+        .macOS(.v10_13)
+    ],
+    products: [
+        .executable(name: "assetgen", targets: ["assetgen"])        
+    ],
     dependencies: [
         .package(url: "https://github.com/sebskuse/Discourse", .branch("master"))
     ],
