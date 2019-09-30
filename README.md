@@ -3,7 +3,7 @@
 A simple command line tool to generate constants from an asset catalog. Currently only supports image assets
 but could be trivially extended to support other types.
 
-###Usage
+### Usage
 
 `assetgen --target "$ASSET_CATALOG" --swiftVersion $SWIFT_VERSION --swiftFormatConfig "$SWIFT_FORMAT_CONFIG" --swiftFormatPath "$SWIFT_FORMAT_PATH"`
 
