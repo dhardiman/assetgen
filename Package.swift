@@ -12,7 +12,7 @@ let package = Package(
         .executable(name: "assetgen", targets: ["assetgen"])        
     ],
     dependencies: [
-        .package(url: "https://github.com/sebskuse/Discourse", .branch("master"))
+        .package(url: "https://github.com/sebskuse/Discourse", .upToNextMajor(from: "1.0.0"))
     ],
     targets: [
         .target(name: "assetgen", dependencies: ["Discourse"])
